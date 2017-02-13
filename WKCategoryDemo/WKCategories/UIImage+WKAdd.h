@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSInteger, LayerSection) {
+    LayerSectionTop,
+    LayerSectionBottom,
+    LayerSectionLeft,
+    LayerSectionRight
+};
+
+
 @interface UIImage (WKAdd)
 
 /**
@@ -43,6 +51,16 @@
  *  @return 返回缩放后的图片
  */
 - (UIImage *)imageWithscaleMaxWidth:(CGFloat)maxWidth;
+
+/**
+ *  对半裁切图片
+ *
+ *  @param section 裁切图片的位置（上半，下半，左半，右半）
+ *
+ *  @return 返回裁切后的图片
+ */
+- (UIImage *)imageForSection:(LayerSection)section;
+
 
 /**
  *  将图片转换为黑白图片

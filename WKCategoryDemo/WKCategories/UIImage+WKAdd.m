@@ -68,6 +68,41 @@ typedef NS_ENUM(NSInteger,BitPixels) {
     return self;
 }
 
+- (UIImage *)imageForSection:(LayerSection)section
+{
+    CGRect rect ;
+    switch (section) {
+        case LayerSectionTop:
+        {
+            rect = CGRectMake(0.f, 0.f, self.size.width, self.size.height / 2.f);
+        }
+            break;
+        case LayerSectionBottom:
+        {
+            rect = CGRectMake(0.f, self.size.height / 2.f, self.size.width, self.size.height / 2.f);
+        }
+            break;
+        case LayerSectionLeft:
+        {
+            rect = CGRectMake(0.f, 0.f, self.size.width /2.f, self.size.height);
+        }
+            break;
+        case LayerSectionRight:
+        {
+            rect = CGRectMake(0.f, self.size.width /2.f, self.size.width /2.f, self.size.height);
+        }
+            break;
+        default:
+            break;
+    }
+  
+    CGImageRef imgRef = CGImageCreateWithImageInRect(self.CGImage, rect);
+    UIImage *imagePart = [UIImage imageWithCGImage:imgRef];
+    CGImageRelease(imgRef);
+    
+    return imagePart;
+}
+
 + (UIImage *)barCodeImageWithInfo:(NSString *)info
 {
     // 创建条形码
