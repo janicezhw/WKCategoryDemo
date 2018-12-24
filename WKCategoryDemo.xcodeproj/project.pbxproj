@@ -7,16 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A91DB95A1EEE804900E81BF0 /* ZWKDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A91DB9591EEE804900E81BF0 /* ZWKDatePickerView.m */; };
+		A924D5011F9F32B500ECE6D3 /* DSCustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A924D4FF1F9F32B500ECE6D3 /* DSCustomPickerView.m */; };
+		A92BF3791EEFE34600AAC804 /* ZWKCustomOperateView.m in Sources */ = {isa = PBXBuildFile; fileRef = A92BF3781EEFE34600AAC804 /* ZWKCustomOperateView.m */; };
+		A92BF37C1EEFE40100AAC804 /* ZWKCustomOperateCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A92BF37B1EEFE40100AAC804 /* ZWKCustomOperateCollectionViewCell.m */; };
+		A93FF9101EF22A8C007CC0AE /* DSDashLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = A93FF90F1EF22A8C007CC0AE /* DSDashLineView.m */; };
+		A94863BE1F68C3D9003DFC1D /* UIView+ZWKBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = A94863BD1F68C3D9003DFC1D /* UIView+ZWKBorder.m */; };
 		A9A0B5751E4BFC970091FF9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A0B5741E4BFC970091FF9A /* main.m */; };
 		A9A0B5781E4BFC970091FF9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A0B5771E4BFC970091FF9A /* AppDelegate.m */; };
 		A9A0B57B1E4BFC970091FF9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A0B57A1E4BFC970091FF9A /* ViewController.m */; };
 		A9A0B57E1E4BFC970091FF9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A0B57C1E4BFC970091FF9A /* Main.storyboard */; };
 		A9A0B5801E4BFC970091FF9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A0B57F1E4BFC970091FF9A /* Assets.xcassets */; };
 		A9A0B5831E4BFC970091FF9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A0B5811E4BFC970091FF9A /* LaunchScreen.storyboard */; };
-		A9A0B58D1E4BFD9C0091FF9A /* NSString+WKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A0B58C1E4BFD9C0091FF9A /* NSString+WKAdd.m */; };
-		A9A0B5901E4C05E70091FF9A /* UIImage+WKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A0B58F1E4C05E70091FF9A /* UIImage+WKAdd.m */; };
-		A9BF09FE1E5152E4000EFDE4 /* NSDate+WKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BF09FD1E5152E4000EFDE4 /* NSDate+WKAdd.m */; };
+		A9A0B58D1E4BFD9C0091FF9A /* NSString+ZWKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A0B58C1E4BFD9C0091FF9A /* NSString+ZWKAdd.m */; };
+		A9A0B5901E4C05E70091FF9A /* UIImage+ZWKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A0B58F1E4C05E70091FF9A /* UIImage+ZWKAdd.m */; };
+		A9B3FB081E54538300E277E0 /* ZWKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B3FB041E54538300E277E0 /* ZWKBaseViewController.m */; };
+		A9B3FB101E545F1B00E277E0 /* ZWKBadgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B3FB0F1E545F1B00E277E0 /* ZWKBadgeButton.m */; };
+		A9BF09FE1E5152E4000EFDE4 /* NSDate+ZWKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BF09FD1E5152E4000EFDE4 /* NSDate+ZWKAdd.m */; };
 		A9BF0A011E515E8D000EFDE4 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BF0A001E515E8D000EFDE4 /* UIViewController+BackButtonHandler.m */; };
+		A9D243571E55B6330089F5A0 /* ZWKBaseViewController+ShowAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D243561E55B6330089F5A0 /* ZWKBaseViewController+ShowAlert.m */; };
+		A9E1D8CD1E56A3C500E16221 /* ZWKSysAlertViewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E1D8CC1E56A3C500E16221 /* ZWKSysAlertViewTool.m */; };
+		A9E1D8D31E56D0BB00E16221 /* ZWKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E1D8D21E56D0BB00E16221 /* ZWKNavigationController.m */; };
+		A9E1D8D61E56F05F00E16221 /* ZWKBaseViewController+NavigationBarSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E1D8D51E56F05F00E16221 /* ZWKBaseViewController+NavigationBarSetting.m */; };
+		A9E1D8D91E56F9DA00E16221 /* ZWKTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E1D8D81E56F9DA00E16221 /* ZWKTabbarController.m */; };
+		A9FA4BE71E5C36890056DCE8 /* ZWKHttpService.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FA4BE61E5C36890056DCE8 /* ZWKHttpService.m */; };
+		A9FA4BEA1E5C46CE0056DCE8 /* WKHttpBaseRequset.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FA4BE91E5C46CE0056DCE8 /* WKHttpBaseRequset.m */; };
 		BEB28146876DF3F1956B1961 /* libPods-WKCategoryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D9BB79403D06AFC280D7440 /* libPods-WKCategoryDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +39,18 @@
 		1CB882040791047FA7DD32DD /* Pods-WKCategoryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKCategoryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WKCategoryDemo/Pods-WKCategoryDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		7D9BB79403D06AFC280D7440 /* libPods-WKCategoryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WKCategoryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8059A7D494F1AAF77E009188 /* Pods-WKCategoryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKCategoryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WKCategoryDemo/Pods-WKCategoryDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A91DB9581EEE804900E81BF0 /* ZWKDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWKDatePickerView.h; sourceTree = "<group>"; };
+		A91DB9591EEE804900E81BF0 /* ZWKDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWKDatePickerView.m; sourceTree = "<group>"; };
+		A924D4FF1F9F32B500ECE6D3 /* DSCustomPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSCustomPickerView.m; sourceTree = "<group>"; };
+		A924D5001F9F32B500ECE6D3 /* DSCustomPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSCustomPickerView.h; sourceTree = "<group>"; };
+		A92BF3771EEFE34600AAC804 /* ZWKCustomOperateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWKCustomOperateView.h; sourceTree = "<group>"; };
+		A92BF3781EEFE34600AAC804 /* ZWKCustomOperateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWKCustomOperateView.m; sourceTree = "<group>"; };
+		A92BF37A1EEFE40100AAC804 /* ZWKCustomOperateCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWKCustomOperateCollectionViewCell.h; sourceTree = "<group>"; };
+		A92BF37B1EEFE40100AAC804 /* ZWKCustomOperateCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWKCustomOperateCollectionViewCell.m; sourceTree = "<group>"; };
+		A93FF90E1EF22A8C007CC0AE /* DSDashLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDashLineView.h; sourceTree = "<group>"; };
+		A93FF90F1EF22A8C007CC0AE /* DSDashLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDashLineView.m; sourceTree = "<group>"; };
+		A94863BC1F68C3D9003DFC1D /* UIView+ZWKBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZWKBorder.h"; sourceTree = "<group>"; };
+		A94863BD1F68C3D9003DFC1D /* UIView+ZWKBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZWKBorder.m"; sourceTree = "<group>"; };
 		A9A0B5701E4BFC970091FF9A /* WKCategoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKCategoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A0B5741E4BFC970091FF9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9A0B5761E4BFC970091FF9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -34,14 +61,36 @@
 		A9A0B57F1E4BFC970091FF9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9A0B5821E4BFC970091FF9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9A0B5841E4BFC970091FF9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9A0B58B1E4BFD9C0091FF9A /* NSString+WKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WKAdd.h"; sourceTree = "<group>"; };
-		A9A0B58C1E4BFD9C0091FF9A /* NSString+WKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WKAdd.m"; sourceTree = "<group>"; };
-		A9A0B58E1E4C05E70091FF9A /* UIImage+WKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WKAdd.h"; sourceTree = "<group>"; };
-		A9A0B58F1E4C05E70091FF9A /* UIImage+WKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WKAdd.m"; sourceTree = "<group>"; };
-		A9BF09FC1E5152E4000EFDE4 /* NSDate+WKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WKAdd.h"; sourceTree = "<group>"; };
-		A9BF09FD1E5152E4000EFDE4 /* NSDate+WKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WKAdd.m"; sourceTree = "<group>"; };
+		A9A0B58B1E4BFD9C0091FF9A /* NSString+ZWKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZWKAdd.h"; sourceTree = "<group>"; };
+		A9A0B58C1E4BFD9C0091FF9A /* NSString+ZWKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZWKAdd.m"; sourceTree = "<group>"; };
+		A9A0B58E1E4C05E70091FF9A /* UIImage+ZWKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZWKAdd.h"; sourceTree = "<group>"; };
+		A9A0B58F1E4C05E70091FF9A /* UIImage+ZWKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZWKAdd.m"; sourceTree = "<group>"; };
+		A9B3FB031E54538300E277E0 /* ZWKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWKBaseViewController.h; sourceTree = "<group>"; };
+		A9B3FB041E54538300E277E0 /* ZWKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWKBaseViewController.m; sourceTree = "<group>"; };
+		A9B3FB051E54538300E277E0 /* ZWKConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWKConsts.h; sourceTree = "<group>"; };
+		A9B3FB061E54538300E277E0 /* ZWKDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWKDefine.h; sourceTree = "<group>"; };
+		A9B3FB071E54538300E277E0 /* ZWKHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWKHelpers.h; sourceTree = "<group>"; };
+		A9B3FB091E5453F700E277E0 /* WKCategoryDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKCategoryDemo.pch; sourceTree = "<group>"; };
+		A9B3FB0E1E545F1B00E277E0 /* ZWKBadgeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWKBadgeButton.h; sourceTree = "<group>"; };
+		A9B3FB0F1E545F1B00E277E0 /* ZWKBadgeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWKBadgeButton.m; sourceTree = "<group>"; };
+		A9BF09FC1E5152E4000EFDE4 /* NSDate+ZWKAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZWKAdd.h"; sourceTree = "<group>"; };
+		A9BF09FD1E5152E4000EFDE4 /* NSDate+ZWKAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZWKAdd.m"; sourceTree = "<group>"; };
 		A9BF09FF1E515E8D000EFDE4 /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
 		A9BF0A001E515E8D000EFDE4 /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
+		A9D243551E55B6330089F5A0 /* ZWKBaseViewController+ShowAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZWKBaseViewController+ShowAlert.h"; sourceTree = "<group>"; };
+		A9D243561E55B6330089F5A0 /* ZWKBaseViewController+ShowAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZWKBaseViewController+ShowAlert.m"; sourceTree = "<group>"; };
+		A9E1D8CB1E56A3C500E16221 /* ZWKSysAlertViewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWKSysAlertViewTool.h; sourceTree = "<group>"; };
+		A9E1D8CC1E56A3C500E16221 /* ZWKSysAlertViewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWKSysAlertViewTool.m; sourceTree = "<group>"; };
+		A9E1D8D11E56D0BB00E16221 /* ZWKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWKNavigationController.h; sourceTree = "<group>"; };
+		A9E1D8D21E56D0BB00E16221 /* ZWKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWKNavigationController.m; sourceTree = "<group>"; };
+		A9E1D8D41E56F05F00E16221 /* ZWKBaseViewController+NavigationBarSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZWKBaseViewController+NavigationBarSetting.h"; sourceTree = "<group>"; };
+		A9E1D8D51E56F05F00E16221 /* ZWKBaseViewController+NavigationBarSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZWKBaseViewController+NavigationBarSetting.m"; sourceTree = "<group>"; };
+		A9E1D8D71E56F9DA00E16221 /* ZWKTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWKTabbarController.h; sourceTree = "<group>"; };
+		A9E1D8D81E56F9DA00E16221 /* ZWKTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWKTabbarController.m; sourceTree = "<group>"; };
+		A9FA4BE51E5C36890056DCE8 /* ZWKHttpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWKHttpService.h; sourceTree = "<group>"; };
+		A9FA4BE61E5C36890056DCE8 /* ZWKHttpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWKHttpService.m; sourceTree = "<group>"; };
+		A9FA4BE81E5C46CE0056DCE8 /* WKHttpBaseRequset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKHttpBaseRequset.h; sourceTree = "<group>"; };
+		A9FA4BE91E5C46CE0056DCE8 /* WKHttpBaseRequset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKHttpBaseRequset.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +143,10 @@
 		A9A0B5721E4BFC970091FF9A /* WKCategoryDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A9FA4BE41E5C36560056DCE8 /* WKNetwork */,
+				A9E1D8CA1E56A39C00E16221 /* WKTools */,
+				A9B3FB0A1E545ECF00E277E0 /* WKCustomView */,
+				A9B3FB021E54538300E277E0 /* WKPublicClass */,
 				A9A0B58A1E4BFCB40091FF9A /* WKCategories */,
 				A9A0B5791E4BFC970091FF9A /* ViewController.h */,
 				A9A0B57A1E4BFC970091FF9A /* ViewController.m */,
@@ -112,6 +165,7 @@
 				A9A0B5811E4BFC970091FF9A /* LaunchScreen.storyboard */,
 				A9A0B5841E4BFC970091FF9A /* Info.plist */,
 				A9A0B5741E4BFC970091FF9A /* main.m */,
+				A9B3FB091E5453F700E277E0 /* WKCategoryDemo.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -119,16 +173,77 @@
 		A9A0B58A1E4BFCB40091FF9A /* WKCategories */ = {
 			isa = PBXGroup;
 			children = (
+				A9D243551E55B6330089F5A0 /* ZWKBaseViewController+ShowAlert.h */,
+				A9D243561E55B6330089F5A0 /* ZWKBaseViewController+ShowAlert.m */,
+				A9E1D8D41E56F05F00E16221 /* ZWKBaseViewController+NavigationBarSetting.h */,
+				A9E1D8D51E56F05F00E16221 /* ZWKBaseViewController+NavigationBarSetting.m */,
 				A9BF09FF1E515E8D000EFDE4 /* UIViewController+BackButtonHandler.h */,
 				A9BF0A001E515E8D000EFDE4 /* UIViewController+BackButtonHandler.m */,
-				A9A0B58B1E4BFD9C0091FF9A /* NSString+WKAdd.h */,
-				A9A0B58C1E4BFD9C0091FF9A /* NSString+WKAdd.m */,
-				A9A0B58E1E4C05E70091FF9A /* UIImage+WKAdd.h */,
-				A9A0B58F1E4C05E70091FF9A /* UIImage+WKAdd.m */,
-				A9BF09FC1E5152E4000EFDE4 /* NSDate+WKAdd.h */,
-				A9BF09FD1E5152E4000EFDE4 /* NSDate+WKAdd.m */,
+				A9A0B58B1E4BFD9C0091FF9A /* NSString+ZWKAdd.h */,
+				A9A0B58C1E4BFD9C0091FF9A /* NSString+ZWKAdd.m */,
+				A9A0B58E1E4C05E70091FF9A /* UIImage+ZWKAdd.h */,
+				A9A0B58F1E4C05E70091FF9A /* UIImage+ZWKAdd.m */,
+				A9BF09FC1E5152E4000EFDE4 /* NSDate+ZWKAdd.h */,
+				A9BF09FD1E5152E4000EFDE4 /* NSDate+ZWKAdd.m */,
+				A94863BC1F68C3D9003DFC1D /* UIView+ZWKBorder.h */,
+				A94863BD1F68C3D9003DFC1D /* UIView+ZWKBorder.m */,
 			);
 			path = WKCategories;
+			sourceTree = "<group>";
+		};
+		A9B3FB021E54538300E277E0 /* WKPublicClass */ = {
+			isa = PBXGroup;
+			children = (
+				A9B3FB031E54538300E277E0 /* ZWKBaseViewController.h */,
+				A9B3FB041E54538300E277E0 /* ZWKBaseViewController.m */,
+				A9B3FB051E54538300E277E0 /* ZWKConsts.h */,
+				A9B3FB061E54538300E277E0 /* ZWKDefine.h */,
+				A9B3FB071E54538300E277E0 /* ZWKHelpers.h */,
+				A9E1D8D11E56D0BB00E16221 /* ZWKNavigationController.h */,
+				A9E1D8D21E56D0BB00E16221 /* ZWKNavigationController.m */,
+				A9E1D8D71E56F9DA00E16221 /* ZWKTabbarController.h */,
+				A9E1D8D81E56F9DA00E16221 /* ZWKTabbarController.m */,
+			);
+			path = WKPublicClass;
+			sourceTree = "<group>";
+		};
+		A9B3FB0A1E545ECF00E277E0 /* WKCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				A924D5001F9F32B500ECE6D3 /* DSCustomPickerView.h */,
+				A924D4FF1F9F32B500ECE6D3 /* DSCustomPickerView.m */,
+				A93FF90E1EF22A8C007CC0AE /* DSDashLineView.h */,
+				A93FF90F1EF22A8C007CC0AE /* DSDashLineView.m */,
+				A9B3FB0E1E545F1B00E277E0 /* ZWKBadgeButton.h */,
+				A9B3FB0F1E545F1B00E277E0 /* ZWKBadgeButton.m */,
+				A91DB9581EEE804900E81BF0 /* ZWKDatePickerView.h */,
+				A91DB9591EEE804900E81BF0 /* ZWKDatePickerView.m */,
+				A92BF3771EEFE34600AAC804 /* ZWKCustomOperateView.h */,
+				A92BF3781EEFE34600AAC804 /* ZWKCustomOperateView.m */,
+				A92BF37A1EEFE40100AAC804 /* ZWKCustomOperateCollectionViewCell.h */,
+				A92BF37B1EEFE40100AAC804 /* ZWKCustomOperateCollectionViewCell.m */,
+			);
+			path = WKCustomView;
+			sourceTree = "<group>";
+		};
+		A9E1D8CA1E56A39C00E16221 /* WKTools */ = {
+			isa = PBXGroup;
+			children = (
+				A9E1D8CB1E56A3C500E16221 /* ZWKSysAlertViewTool.h */,
+				A9E1D8CC1E56A3C500E16221 /* ZWKSysAlertViewTool.m */,
+			);
+			path = WKTools;
+			sourceTree = "<group>";
+		};
+		A9FA4BE41E5C36560056DCE8 /* WKNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA4BE51E5C36890056DCE8 /* ZWKHttpService.h */,
+				A9FA4BE61E5C36890056DCE8 /* ZWKHttpService.m */,
+				A9FA4BE81E5C46CE0056DCE8 /* WKHttpBaseRequset.h */,
+				A9FA4BE91E5C46CE0056DCE8 /* WKHttpBaseRequset.m */,
+			);
+			path = WKNetwork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,13 +369,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9E1D8D61E56F05F00E16221 /* ZWKBaseViewController+NavigationBarSetting.m in Sources */,
+				A93FF9101EF22A8C007CC0AE /* DSDashLineView.m in Sources */,
+				A94863BE1F68C3D9003DFC1D /* UIView+ZWKBorder.m in Sources */,
 				A9BF0A011E515E8D000EFDE4 /* UIViewController+BackButtonHandler.m in Sources */,
+				A9FA4BE71E5C36890056DCE8 /* ZWKHttpService.m in Sources */,
 				A9A0B57B1E4BFC970091FF9A /* ViewController.m in Sources */,
-				A9A0B5901E4C05E70091FF9A /* UIImage+WKAdd.m in Sources */,
-				A9A0B58D1E4BFD9C0091FF9A /* NSString+WKAdd.m in Sources */,
+				A9FA4BEA1E5C46CE0056DCE8 /* WKHttpBaseRequset.m in Sources */,
+				A9D243571E55B6330089F5A0 /* ZWKBaseViewController+ShowAlert.m in Sources */,
+				A9A0B5901E4C05E70091FF9A /* UIImage+ZWKAdd.m in Sources */,
+				A9A0B58D1E4BFD9C0091FF9A /* NSString+ZWKAdd.m in Sources */,
+				A924D5011F9F32B500ECE6D3 /* DSCustomPickerView.m in Sources */,
 				A9A0B5781E4BFC970091FF9A /* AppDelegate.m in Sources */,
-				A9BF09FE1E5152E4000EFDE4 /* NSDate+WKAdd.m in Sources */,
+				A9E1D8D91E56F9DA00E16221 /* ZWKTabbarController.m in Sources */,
+				A92BF37C1EEFE40100AAC804 /* ZWKCustomOperateCollectionViewCell.m in Sources */,
+				A9B3FB101E545F1B00E277E0 /* ZWKBadgeButton.m in Sources */,
+				A9E1D8CD1E56A3C500E16221 /* ZWKSysAlertViewTool.m in Sources */,
+				A9B3FB081E54538300E277E0 /* ZWKBaseViewController.m in Sources */,
+				A9E1D8D31E56D0BB00E16221 /* ZWKNavigationController.m in Sources */,
+				A9BF09FE1E5152E4000EFDE4 /* NSDate+ZWKAdd.m in Sources */,
+				A92BF3791EEFE34600AAC804 /* ZWKCustomOperateView.m in Sources */,
 				A9A0B5751E4BFC970091FF9A /* main.m in Sources */,
+				A91DB95A1EEE804900E81BF0 /* ZWKDatePickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +434,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -352,6 +483,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -382,7 +514,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 38ZTFK66Z4;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = WKCategoryDemo/WKCategoryDemo.pch;
 				INFOPLIST_FILE = WKCategoryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.WK.WKCategoryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -395,7 +530,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 38ZTFK66Z4;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = WKCategoryDemo/WKCategoryDemo.pch;
 				INFOPLIST_FILE = WKCategoryDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.WK.WKCategoryDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

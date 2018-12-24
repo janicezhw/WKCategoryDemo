@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZWKBaseViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : ZWKBaseViewController
 
 
 @end

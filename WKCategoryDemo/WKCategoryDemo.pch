@@ -1,0 +1,25 @@
+//
+//  WKCategoryDemo.pch
+//  WKCategoryDemo
+//
+//  Created by DianShi on 15/02/2017.
+//  Copyright © 2017 WK. All rights reserved.
+//
+
+#ifndef WKCategoryDemo_pch
+#define WKCategoryDemo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Availability.h>
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#import "ZWKHelpers.h"
+
+#endif /* WKCategoryDemo_pch */
